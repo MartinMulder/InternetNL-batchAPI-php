@@ -1,7 +1,7 @@
 {
-    "name": "martinmulder/internetnl-php",
+    "name": "martinmulder/internetnl-batchapi-php",
     "description": "Internet.nl batch API PHP",
-    "homepage": "https://github.com/MartinMulder/InternetNL-php",
+    "homepage": "https://github.com/MartinMulder/InternetNL-batchAPI-php",
     "keywords": ["internetnl"],
     "license": "MIT",
     "authors": [

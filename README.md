@@ -2,7 +2,7 @@
 This is a php client for communication with the Internet.NL batch API.
 
 # Usage
-```
+```php
 <?php
 use \Doctrine\Common\Annotations\AnnotationRegistry;
 

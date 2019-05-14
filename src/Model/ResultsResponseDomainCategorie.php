@@ -16,30 +16,30 @@ namespace MartinMulder\InternetNL\Model;
 use JMS\Serializer\Annotation as Serializer;
 
 /**
- * Class ResultsResponseDomainCategorie
+ * Class ResultsResponseDomainCategory
  *
  * @access public
  * @package MartinMulder\InternetNL\Model
  *
  * @Serializer\AccessType("public_method")
  */
-class ResultsResponseDomainCategorie
+class ResultsResponseDomainCategory
 {
 	/**
      * InternetNL response
      *
      * @var string
-     * @Serializer\Accessor(getter="getCategorie", setter="setCategorie")
-     * @Serializer\SerializedName("categorie")
+     * @Serializer\Accessor(getter="getCategory", setter="setCategory")
+     * @Serializer\SerializedName("category")
      * @Serializer\Type("string")
      */
-	private $categorie;
+	private $category;
 
     /**
      * InternetNL response
      *
      * @var boolean
-     * @Serializer\Accessor(getter="getPsased  ", setter="setPassed")
+     * @Serializer\Accessor(getter="getPassed", setter="setPassed")
      * @Serializer\SerializedName("passed")
      * @Serializer\Type("boolean")
      */
@@ -50,18 +50,18 @@ class ResultsResponseDomainCategorie
      *
      * @return string
      */
-    public function getCategorie(){
-        return $this->categorie;
+    public function getCategory(){
+        return $this->category;
     }
 
     /**
-     * @param $categorie
+     * @param $category
      *
      * @return $this
      */
-    public function setCategorie($categorie)
+    public function setCategory($category)
     {
-        $this->categorie = $categorie;
+        $this->category = $category;
 
         return $this;
     }

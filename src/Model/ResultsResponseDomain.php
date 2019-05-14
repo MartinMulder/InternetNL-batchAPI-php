@@ -68,10 +68,10 @@ class ResultsResponseDomain
     /**
      * InternetNL response
      *
-     * @var MartinMulder\InternetNL\Model\ResultsResponseDomainCategorie[]
+     * @var MartinMulder\InternetNL\Model\ResultsResponseDomainCategory[]
      * @Serializer\Accessor(getter="getCategories", setter="setCategories")
      * @Serializer\SerializedName("categories")
-     * @Serializer\Type("array<MartinMulder\InternetNL\Model\ResultsResponseDomainCategorie>")
+     * @Serializer\Type("array<MartinMulder\InternetNL\Model\ResultsResponseDomainCategory>")
      */
     private $categories;
 
@@ -173,7 +173,7 @@ class ResultsResponseDomain
     /**
      * Results as string.
      *
-     * @return MartinMuler\InternetNL\Model\ResultsResponseDomainCategorie[]
+     * @return MartinMuler\InternetNL\Model\ResultsResponseDomainCategory[]
      */
     public function getCategories(){
         return $this->categories;

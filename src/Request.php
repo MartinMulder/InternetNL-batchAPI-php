@@ -16,7 +16,7 @@ use JMS\Serializer\SerializerBuilder;
  */
 final class Request
 {
-    const API_URL = 'https://batch.internet.nl/api/batch/v1.0';
+    const API_URL = 'https://batch.internet.nl/api/batch/v1.1';
 
     /**
      * @var \MartinMulder\InternetNL\Http
